@@ -38,4 +38,6 @@ This project helped improve my understanding of frontend logic and React applica
 
 This is a frontend learning project created to practice React fundamentals and game logic implementation.
 
+## Screenshots
+
 ## <img width="1179" height="972" alt="Screenshot 2026-05-11 120703" src="https://github.com/user-attachments/assets/f8aca307-bb70-46f1-a196-6cc40359d1fd" />
