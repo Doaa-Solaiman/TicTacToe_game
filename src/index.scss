@@ -1,0 +1,107 @@
+body {
+	font: 27px "Century Gothic", Futura, sans-serif;
+	margin: 20px;
+}
+
+ol,
+ul {
+	padding-left: 30px;
+}
+
+.board-row:after {
+	clear: both;
+	content: "";
+	display: table;
+}
+
+.status {
+	margin-bottom: 10px;
+}
+
+.square {
+	background: rgb(128, 128, 128);
+	border: 2px solid rgb(255, 255, 255);
+	float: left;
+	font-size: 70px;
+	color: white;
+	font-weight: bold;
+	line-height: 34px;
+	height: 100px;
+	margin-right: -1px;
+	margin-top: -1px;
+	padding: 0;
+	text-align: center;
+	width: 100px;
+
+}
+
+
+.square:focus {
+	outline: none;
+}
+
+.kbd-navigation .square:focus {
+	background: #ddd;
+}
+
+.game {
+	display: flex;
+	flex-direction: row;
+}
+
+.game-info {
+	margin-left: 20px;
+}
+
+
+/*=======================================================================*/
+// The button forms
+
+.botto {
+background-color: transparent;
+border: 1px solid #266DB6;
+box-sizing: border-box;
+color: #00132C;
+font-family: "Avenir Next LT W01 Bold",sans-serif;
+font-size: 16px;
+font-weight: 700;
+line-height: 24px;
+padding: 16px 23px;
+position: relative;
+text-decoration: none;
+user-select: none;
+-webkit-user-select: none;
+touch-action: manipulation;
+}
+
+.botto:hover,
+.botto:active {
+outline: 0;
+}
+
+.botto:hover {
+background-color: transparent;
+cursor: pointer;
+}
+
+.botto:before {
+background-color: rgb(192, 192, 192);
+content: "";
+height: calc(100% + 3px);
+position: absolute;
+right: -7px;
+top: -9px;
+transition: background-color 300ms ease-in;
+width: 100%;
+z-index: -1;
+}
+
+.botto:hover:before {
+background-color: rgb(255, 255, 255);
+}
+
+@media (min-width: 768px) {
+.botto {
+	padding: 16px 32px;
+}
+}
