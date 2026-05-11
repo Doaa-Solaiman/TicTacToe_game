@@ -34,7 +34,8 @@ This project helped improve my understanding of frontend logic and React applica
 * Basic game logic
 * Component structure
 
-## <img width="1179" height="972" alt="Screenshot 2026-05-11 120703" src="https://github.com/user-attachments/assets/f8aca307-bb70-46f1-a196-6cc40359d1fd" />
-Important Note
+## Important Note
 
 This is a frontend learning project created to practice React fundamentals and game logic implementation.
+
+## <img width="1179" height="972" alt="Screenshot 2026-05-11 120703" src="https://github.com/user-attachments/assets/f8aca307-bb70-46f1-a196-6cc40359d1fd" />
